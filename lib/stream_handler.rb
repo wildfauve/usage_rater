@@ -7,7 +7,7 @@ class StreamHandler
   end
 
   def process(raw_msg)
-    @sink.process(@plan, self.send(@parser, raw_msg.value))
+    @sink.process(@plan, self.send(@parser, raw_msg))
   end
 
   def json(raw)

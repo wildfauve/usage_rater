@@ -1,0 +1,15 @@
+source 'https://rubygems.org'
+
+gem 'rake'
+#gem 'karafka', github: 'karafka/karafka'
+gem 'cassandra-driver', :require => 'cassandra'
+gem 'pry'
+gem 'bigdecimal'
+#gem 'pry-remote'
+gem 'digest'
+gem 'json'
+gem 'mongo'
+#require 'iso8601'
+#require 'influxdb'
+gem 'waterdrop'
+gem "any_port", path: "/Users/wildfauve/ruby/gems/any_port"
